@@ -1,0 +1,17 @@
+﻿<div>
+    
+    <h1>Stats</h1>   
+<table border="1" align="center">
+    {{error}}
+    <tr>
+        <td>ID</td>
+        <td>Lable</td>
+        <td>Rate</td>
+    </tr>
+    <tr *ngFor="let item of data">
+        <td>{{item.id}}</td>
+        <td>{{item.label}}</td>
+        <td>{{item.Rate}}</td>
+    </tr>
+</table>
+</div>
